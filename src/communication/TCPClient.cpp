@@ -33,6 +33,7 @@
 //----------------------------------------------------------------------
 
 #include "sick_safetyscanners_base/communication/TCPClient.h"
+#include <boost/asio/deadline_timer.hpp>
 #include "sick_safetyscanners_base/Exceptions.h"
 #include "sick_safetyscanners_base/Logging.h"
 
